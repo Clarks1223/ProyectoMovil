@@ -1,0 +1,27 @@
+.item-usuario-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border: solid 2px black;
+  padding: 5px;
+}
+
+.item-usuario-container .imagen img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.informacion {
+  display: flex;
+  flex-grow: 1; /* Este elemento ocupa todo el espacio disponible */
+}
+
+.eliminar {
+  margin-left: auto; /* Empuja el botón "Eliminar" hacia la derecha */
+}
+
+.informacion {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

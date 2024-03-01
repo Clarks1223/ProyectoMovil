@@ -1,0 +1,15 @@
+.lista-usuarios {
+  display: flex;
+  flex-direction: column; /* Para apilar los elementos verticalmente */
+  gap: 20px; /* Espacio entre los elementos */
+  align-items: center;
+}
+
+.mapa-real {
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.botones {
+  text-align: center;
+}
